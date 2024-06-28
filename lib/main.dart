@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:partiel_community/pages/task_list_screen.dart';
+import 'package:partiel_community/habitpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  TaskListScreen(),
+      home:  HabitPage(),
     );
   }
 }
